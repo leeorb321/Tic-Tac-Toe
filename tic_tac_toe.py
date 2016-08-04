@@ -94,7 +94,7 @@ def minimax(board, player):
             best_score = last_score
             best_move = move
 
-    if not best_move:
+    if best_move == None:
         return 0
 
     return best_score
